@@ -1,0 +1,53 @@
+@mixin icon($w, $h, $bg) {
+	width: $w;
+	height: $h;
+	background: url("../img/" + $bg) no-repeat;   
+	background-size: contain; 
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.t-center {
+	text-align: center;
+}
+
+.t-left {
+	text-align: left;
+}
+
+.t-right {
+	text-align: right;
+}
+
+.centered {
+	display: block;
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+.dib {
+	display: inline-block;
+}
+
+.db {
+	display: block;
+}
+
+.hidden {
+	visibility: hidden !important;
+}
+
+.cell {
+	display: table-cell;
+	vertical-align: middle;  
+}
+
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
+}

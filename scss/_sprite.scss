@@ -1,0 +1,559 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$calendar-name: 'calendar';
+$calendar-x: 146px;
+$calendar-y: 63px;
+$calendar-offset-x: -146px;
+$calendar-offset-y: -63px;
+$calendar-width: 18px;
+$calendar-height: 20px;
+$calendar-total-width: 167px;
+$calendar-total-height: 161px;
+$calendar-image: 'sprite.png';
+$calendar: (146px, 63px, -146px, -63px, 18px, 20px, 167px, 161px, 'sprite.png', 'calendar', );
+$calendar-white-name: 'calendar_white';
+$calendar-white-x: 146px;
+$calendar-white-y: 83px;
+$calendar-white-offset-x: -146px;
+$calendar-white-offset-y: -83px;
+$calendar-white-width: 18px;
+$calendar-white-height: 20px;
+$calendar-white-total-width: 167px;
+$calendar-white-total-height: 161px;
+$calendar-white-image: 'sprite.png';
+$calendar-white: (146px, 83px, -146px, -83px, 18px, 20px, 167px, 161px, 'sprite.png', 'calendar_white', );
+$checkbox-off-name: 'checkbox_off';
+$checkbox-off-x: 146px;
+$checkbox-off-y: 43px;
+$checkbox-off-offset-x: -146px;
+$checkbox-off-offset-y: -43px;
+$checkbox-off-width: 20px;
+$checkbox-off-height: 20px;
+$checkbox-off-total-width: 167px;
+$checkbox-off-total-height: 161px;
+$checkbox-off-image: 'sprite.png';
+$checkbox-off: (146px, 43px, -146px, -43px, 20px, 20px, 167px, 161px, 'sprite.png', 'checkbox_off', );
+$checkbox-on-name: 'checkbox_on';
+$checkbox-on-x: 146px;
+$checkbox-on-y: 122px;
+$checkbox-on-offset-x: -146px;
+$checkbox-on-offset-y: -122px;
+$checkbox-on-width: 18px;
+$checkbox-on-height: 18px;
+$checkbox-on-total-width: 167px;
+$checkbox-on-total-height: 161px;
+$checkbox-on-image: 'sprite.png';
+$checkbox-on: (146px, 122px, -146px, -122px, 18px, 18px, 167px, 161px, 'sprite.png', 'checkbox_on', );
+$close-name: 'close';
+$close-x: 101px;
+$close-y: 103px;
+$close-offset-x: -101px;
+$close-offset-y: -103px;
+$close-width: 21px;
+$close-height: 21px;
+$close-total-width: 167px;
+$close-total-height: 161px;
+$close-image: 'sprite.png';
+$close: (101px, 103px, -101px, -103px, 21px, 21px, 167px, 161px, 'sprite.png', 'close', );
+$close-hover-name: 'close_hover';
+$close-hover-x: 122px;
+$close-hover-y: 103px;
+$close-hover-offset-x: -122px;
+$close-hover-offset-y: -103px;
+$close-hover-width: 21px;
+$close-hover-height: 21px;
+$close-hover-total-width: 167px;
+$close-hover-total-height: 161px;
+$close-hover-image: 'sprite.png';
+$close-hover: (122px, 103px, -122px, -103px, 21px, 21px, 167px, 161px, 'sprite.png', 'close_hover', );
+$delete-name: 'delete';
+$delete-x: 78px;
+$delete-y: 128px;
+$delete-offset-x: -78px;
+$delete-offset-y: -128px;
+$delete-width: 12px;
+$delete-height: 12px;
+$delete-total-width: 167px;
+$delete-total-height: 161px;
+$delete-image: 'sprite.png';
+$delete: (78px, 128px, -78px, -128px, 12px, 12px, 167px, 161px, 'sprite.png', 'delete', );
+$dropdown-arrow-name: 'dropdown_arrow';
+$dropdown-arrow-x: 138px;
+$dropdown-arrow-y: 80px;
+$dropdown-arrow-offset-x: -138px;
+$dropdown-arrow-offset-y: -80px;
+$dropdown-arrow-width: 8px;
+$dropdown-arrow-height: 5px;
+$dropdown-arrow-total-width: 167px;
+$dropdown-arrow-total-height: 161px;
+$dropdown-arrow-image: 'sprite.png';
+$dropdown-arrow: (138px, 80px, -138px, -80px, 8px, 5px, 167px, 161px, 'sprite.png', 'dropdown_arrow', );
+$icon-exit-name: 'icon-exit';
+$icon-exit-x: 146px;
+$icon-exit-y: 21px;
+$icon-exit-offset-x: -146px;
+$icon-exit-offset-y: -21px;
+$icon-exit-width: 19px;
+$icon-exit-height: 22px;
+$icon-exit-total-width: 167px;
+$icon-exit-total-height: 161px;
+$icon-exit-image: 'sprite.png';
+$icon-exit: (146px, 21px, -146px, -21px, 19px, 22px, 167px, 161px, 'sprite.png', 'icon-exit', );
+$icon-lock-name: 'icon-lock';
+$icon-lock-x: 78px;
+$icon-lock-y: 103px;
+$icon-lock-offset-x: -78px;
+$icon-lock-offset-y: -103px;
+$icon-lock-width: 23px;
+$icon-lock-height: 25px;
+$icon-lock-total-width: 167px;
+$icon-lock-total-height: 161px;
+$icon-lock-image: 'sprite.png';
+$icon-lock: (78px, 103px, -78px, -103px, 23px, 25px, 167px, 161px, 'sprite.png', 'icon-lock', );
+$icon-search-name: 'icon-search';
+$icon-search-x: 146px;
+$icon-search-y: 0px;
+$icon-search-offset-x: -146px;
+$icon-search-offset-y: 0px;
+$icon-search-width: 21px;
+$icon-search-height: 21px;
+$icon-search-total-width: 167px;
+$icon-search-total-height: 161px;
+$icon-search-image: 'sprite.png';
+$icon-search: (146px, 0px, -146px, 0px, 21px, 21px, 167px, 161px, 'sprite.png', 'icon-search', );
+$icon-user-name: 'icon-user';
+$icon-user-x: 146px;
+$icon-user-y: 103px;
+$icon-user-offset-x: -146px;
+$icon-user-offset-y: -103px;
+$icon-user-width: 18px;
+$icon-user-height: 19px;
+$icon-user-total-width: 167px;
+$icon-user-total-height: 161px;
+$icon-user-image: 'sprite.png';
+$icon-user: (146px, 103px, -146px, -103px, 18px, 19px, 167px, 161px, 'sprite.png', 'icon-user', );
+$logo-name: 'logo';
+$logo-x: 0px;
+$logo-y: 0px;
+$logo-offset-x: 0px;
+$logo-offset-y: 0px;
+$logo-width: 146px;
+$logo-height: 80px;
+$logo-total-width: 167px;
+$logo-total-height: 161px;
+$logo-image: 'sprite.png';
+$logo: (0px, 0px, 0px, 0px, 146px, 80px, 167px, 161px, 'sprite.png', 'logo', );
+$logo-dashboard-name: 'logo_dashboard';
+$logo-dashboard-x: 0px;
+$logo-dashboard-y: 80px;
+$logo-dashboard-offset-x: 0px;
+$logo-dashboard-offset-y: -80px;
+$logo-dashboard-width: 138px;
+$logo-dashboard-height: 23px;
+$logo-dashboard-total-width: 167px;
+$logo-dashboard-total-height: 161px;
+$logo-dashboard-image: 'sprite.png';
+$logo-dashboard: (0px, 80px, 0px, -80px, 138px, 23px, 167px, 161px, 'sprite.png', 'logo_dashboard', );
+$next-name: 'next';
+$next-x: 0px;
+$next-y: 143px;
+$next-offset-x: 0px;
+$next-offset-y: -143px;
+$next-width: 10px;
+$next-height: 18px;
+$next-total-width: 167px;
+$next-total-height: 161px;
+$next-image: 'sprite.png';
+$next: (0px, 143px, 0px, -143px, 10px, 18px, 167px, 161px, 'sprite.png', 'next', );
+$not-name: 'not';
+$not-x: 40px;
+$not-y: 103px;
+$not-offset-x: -40px;
+$not-offset-y: -103px;
+$not-width: 38px;
+$not-height: 38px;
+$not-total-width: 167px;
+$not-total-height: 161px;
+$not-image: 'sprite.png';
+$not: (40px, 103px, -40px, -103px, 38px, 38px, 167px, 161px, 'sprite.png', 'not', );
+$plus-name: 'plus';
+$plus-x: 0px;
+$plus-y: 103px;
+$plus-offset-x: 0px;
+$plus-offset-y: -103px;
+$plus-width: 40px;
+$plus-height: 40px;
+$plus-total-width: 167px;
+$plus-total-height: 161px;
+$plus-image: 'sprite.png';
+$plus: (0px, 103px, 0px, -103px, 40px, 40px, 167px, 161px, 'sprite.png', 'plus', );
+$prev-name: 'prev';
+$prev-x: 10px;
+$prev-y: 143px;
+$prev-offset-x: -10px;
+$prev-offset-y: -143px;
+$prev-width: 10px;
+$prev-height: 18px;
+$prev-total-width: 167px;
+$prev-total-height: 161px;
+$prev-image: 'sprite.png';
+$prev: (10px, 143px, -10px, -143px, 10px, 18px, 167px, 161px, 'sprite.png', 'prev', );
+$calendar-2x-name: 'calendar-2x';
+$calendar-2x-x: 292px;
+$calendar-2x-y: 126px;
+$calendar-2x-offset-x: -292px;
+$calendar-2x-offset-y: -126px;
+$calendar-2x-width: 36px;
+$calendar-2x-height: 40px;
+$calendar-2x-total-width: 334px;
+$calendar-2x-total-height: 322px;
+$calendar-2x-image: 'sprite-2x.png';
+$calendar-2x: (292px, 126px, -292px, -126px, 36px, 40px, 334px, 322px, 'sprite-2x.png', 'calendar-2x', );
+$calendar-white-2x-name: 'calendar_white-2x';
+$calendar-white-2x-x: 292px;
+$calendar-white-2x-y: 166px;
+$calendar-white-2x-offset-x: -292px;
+$calendar-white-2x-offset-y: -166px;
+$calendar-white-2x-width: 36px;
+$calendar-white-2x-height: 40px;
+$calendar-white-2x-total-width: 334px;
+$calendar-white-2x-total-height: 322px;
+$calendar-white-2x-image: 'sprite-2x.png';
+$calendar-white-2x: (292px, 166px, -292px, -166px, 36px, 40px, 334px, 322px, 'sprite-2x.png', 'calendar_white-2x', );
+$checkbox-off-2x-name: 'checkbox_off-2x';
+$checkbox-off-2x-x: 292px;
+$checkbox-off-2x-y: 86px;
+$checkbox-off-2x-offset-x: -292px;
+$checkbox-off-2x-offset-y: -86px;
+$checkbox-off-2x-width: 40px;
+$checkbox-off-2x-height: 40px;
+$checkbox-off-2x-total-width: 334px;
+$checkbox-off-2x-total-height: 322px;
+$checkbox-off-2x-image: 'sprite-2x.png';
+$checkbox-off-2x: (292px, 86px, -292px, -86px, 40px, 40px, 334px, 322px, 'sprite-2x.png', 'checkbox_off-2x', );
+$checkbox-on-2x-name: 'checkbox_on-2x';
+$checkbox-on-2x-x: 292px;
+$checkbox-on-2x-y: 244px;
+$checkbox-on-2x-offset-x: -292px;
+$checkbox-on-2x-offset-y: -244px;
+$checkbox-on-2x-width: 36px;
+$checkbox-on-2x-height: 36px;
+$checkbox-on-2x-total-width: 334px;
+$checkbox-on-2x-total-height: 322px;
+$checkbox-on-2x-image: 'sprite-2x.png';
+$checkbox-on-2x: (292px, 244px, -292px, -244px, 36px, 36px, 334px, 322px, 'sprite-2x.png', 'checkbox_on-2x', );
+$close-2x-name: 'close-2x';
+$close-2x-x: 202px;
+$close-2x-y: 206px;
+$close-2x-offset-x: -202px;
+$close-2x-offset-y: -206px;
+$close-2x-width: 42px;
+$close-2x-height: 42px;
+$close-2x-total-width: 334px;
+$close-2x-total-height: 322px;
+$close-2x-image: 'sprite-2x.png';
+$close-2x: (202px, 206px, -202px, -206px, 42px, 42px, 334px, 322px, 'sprite-2x.png', 'close-2x', );
+$close-hover-2x-name: 'close_hover-2x';
+$close-hover-2x-x: 244px;
+$close-hover-2x-y: 206px;
+$close-hover-2x-offset-x: -244px;
+$close-hover-2x-offset-y: -206px;
+$close-hover-2x-width: 42px;
+$close-hover-2x-height: 42px;
+$close-hover-2x-total-width: 334px;
+$close-hover-2x-total-height: 322px;
+$close-hover-2x-image: 'sprite-2x.png';
+$close-hover-2x: (244px, 206px, -244px, -206px, 42px, 42px, 334px, 322px, 'sprite-2x.png', 'close_hover-2x', );
+$delete-2x-name: 'delete-2x';
+$delete-2x-x: 156px;
+$delete-2x-y: 256px;
+$delete-2x-offset-x: -156px;
+$delete-2x-offset-y: -256px;
+$delete-2x-width: 24px;
+$delete-2x-height: 24px;
+$delete-2x-total-width: 334px;
+$delete-2x-total-height: 322px;
+$delete-2x-image: 'sprite-2x.png';
+$delete-2x: (156px, 256px, -156px, -256px, 24px, 24px, 334px, 322px, 'sprite-2x.png', 'delete-2x', );
+$dropdown-arrow-2x-name: 'dropdown_arrow-2x';
+$dropdown-arrow-2x-x: 276px;
+$dropdown-arrow-2x-y: 160px;
+$dropdown-arrow-2x-offset-x: -276px;
+$dropdown-arrow-2x-offset-y: -160px;
+$dropdown-arrow-2x-width: 16px;
+$dropdown-arrow-2x-height: 10px;
+$dropdown-arrow-2x-total-width: 334px;
+$dropdown-arrow-2x-total-height: 322px;
+$dropdown-arrow-2x-image: 'sprite-2x.png';
+$dropdown-arrow-2x: (276px, 160px, -276px, -160px, 16px, 10px, 334px, 322px, 'sprite-2x.png', 'dropdown_arrow-2x', );
+$icon-exit-2x-name: 'icon-exit-2x';
+$icon-exit-2x-x: 292px;
+$icon-exit-2x-y: 42px;
+$icon-exit-2x-offset-x: -292px;
+$icon-exit-2x-offset-y: -42px;
+$icon-exit-2x-width: 38px;
+$icon-exit-2x-height: 44px;
+$icon-exit-2x-total-width: 334px;
+$icon-exit-2x-total-height: 322px;
+$icon-exit-2x-image: 'sprite-2x.png';
+$icon-exit-2x: (292px, 42px, -292px, -42px, 38px, 44px, 334px, 322px, 'sprite-2x.png', 'icon-exit-2x', );
+$icon-lock-2x-name: 'icon-lock-2x';
+$icon-lock-2x-x: 156px;
+$icon-lock-2x-y: 206px;
+$icon-lock-2x-offset-x: -156px;
+$icon-lock-2x-offset-y: -206px;
+$icon-lock-2x-width: 46px;
+$icon-lock-2x-height: 50px;
+$icon-lock-2x-total-width: 334px;
+$icon-lock-2x-total-height: 322px;
+$icon-lock-2x-image: 'sprite-2x.png';
+$icon-lock-2x: (156px, 206px, -156px, -206px, 46px, 50px, 334px, 322px, 'sprite-2x.png', 'icon-lock-2x', );
+$icon-search-2x-name: 'icon-search-2x';
+$icon-search-2x-x: 292px;
+$icon-search-2x-y: 0px;
+$icon-search-2x-offset-x: -292px;
+$icon-search-2x-offset-y: 0px;
+$icon-search-2x-width: 42px;
+$icon-search-2x-height: 42px;
+$icon-search-2x-total-width: 334px;
+$icon-search-2x-total-height: 322px;
+$icon-search-2x-image: 'sprite-2x.png';
+$icon-search-2x: (292px, 0px, -292px, 0px, 42px, 42px, 334px, 322px, 'sprite-2x.png', 'icon-search-2x', );
+$icon-user-2x-name: 'icon-user-2x';
+$icon-user-2x-x: 292px;
+$icon-user-2x-y: 206px;
+$icon-user-2x-offset-x: -292px;
+$icon-user-2x-offset-y: -206px;
+$icon-user-2x-width: 36px;
+$icon-user-2x-height: 38px;
+$icon-user-2x-total-width: 334px;
+$icon-user-2x-total-height: 322px;
+$icon-user-2x-image: 'sprite-2x.png';
+$icon-user-2x: (292px, 206px, -292px, -206px, 36px, 38px, 334px, 322px, 'sprite-2x.png', 'icon-user-2x', );
+$logo-2x-name: 'logo-2x';
+$logo-2x-x: 0px;
+$logo-2x-y: 0px;
+$logo-2x-offset-x: 0px;
+$logo-2x-offset-y: 0px;
+$logo-2x-width: 292px;
+$logo-2x-height: 160px;
+$logo-2x-total-width: 334px;
+$logo-2x-total-height: 322px;
+$logo-2x-image: 'sprite-2x.png';
+$logo-2x: (0px, 0px, 0px, 0px, 292px, 160px, 334px, 322px, 'sprite-2x.png', 'logo-2x', );
+$logo-dashboard-2x-name: 'logo_dashboard-2x';
+$logo-dashboard-2x-x: 0px;
+$logo-dashboard-2x-y: 160px;
+$logo-dashboard-2x-offset-x: 0px;
+$logo-dashboard-2x-offset-y: -160px;
+$logo-dashboard-2x-width: 276px;
+$logo-dashboard-2x-height: 46px;
+$logo-dashboard-2x-total-width: 334px;
+$logo-dashboard-2x-total-height: 322px;
+$logo-dashboard-2x-image: 'sprite-2x.png';
+$logo-dashboard-2x: (0px, 160px, 0px, -160px, 276px, 46px, 334px, 322px, 'sprite-2x.png', 'logo_dashboard-2x', );
+$next-2x-name: 'next-2x';
+$next-2x-x: 0px;
+$next-2x-y: 286px;
+$next-2x-offset-x: 0px;
+$next-2x-offset-y: -286px;
+$next-2x-width: 20px;
+$next-2x-height: 36px;
+$next-2x-total-width: 334px;
+$next-2x-total-height: 322px;
+$next-2x-image: 'sprite-2x.png';
+$next-2x: (0px, 286px, 0px, -286px, 20px, 36px, 334px, 322px, 'sprite-2x.png', 'next-2x', );
+$not-2x-name: 'not-2x';
+$not-2x-x: 80px;
+$not-2x-y: 206px;
+$not-2x-offset-x: -80px;
+$not-2x-offset-y: -206px;
+$not-2x-width: 76px;
+$not-2x-height: 76px;
+$not-2x-total-width: 334px;
+$not-2x-total-height: 322px;
+$not-2x-image: 'sprite-2x.png';
+$not-2x: (80px, 206px, -80px, -206px, 76px, 76px, 334px, 322px, 'sprite-2x.png', 'not-2x', );
+$plus-2x-name: 'plus-2x';
+$plus-2x-x: 0px;
+$plus-2x-y: 206px;
+$plus-2x-offset-x: 0px;
+$plus-2x-offset-y: -206px;
+$plus-2x-width: 80px;
+$plus-2x-height: 80px;
+$plus-2x-total-width: 334px;
+$plus-2x-total-height: 322px;
+$plus-2x-image: 'sprite-2x.png';
+$plus-2x: (0px, 206px, 0px, -206px, 80px, 80px, 334px, 322px, 'sprite-2x.png', 'plus-2x', );
+$prev-2x-name: 'prev-2x';
+$prev-2x-x: 20px;
+$prev-2x-y: 286px;
+$prev-2x-offset-x: -20px;
+$prev-2x-offset-y: -286px;
+$prev-2x-width: 20px;
+$prev-2x-height: 36px;
+$prev-2x-total-width: 334px;
+$prev-2x-total-height: 322px;
+$prev-2x-image: 'sprite-2x.png';
+$prev-2x: (20px, 286px, -20px, -286px, 20px, 36px, 334px, 322px, 'sprite-2x.png', 'prev-2x', );
+$spritesheet-width: 167px;
+$spritesheet-height: 161px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($calendar, $calendar-white, $checkbox-off, $checkbox-on, $close, $close-hover, $delete, $dropdown-arrow, $icon-exit, $icon-lock, $icon-search, $icon-user, $logo, $logo-dashboard, $next, $not, $plus, $prev, );
+$spritesheet: (167px, 161px, 'sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 334px;
+$retina-spritesheet-height: 322px;
+$retina-spritesheet-image: 'sprite-2x.png';
+$retina-spritesheet-sprites: ($calendar-2x, $calendar-white-2x, $checkbox-off-2x, $checkbox-on-2x, $close-2x, $close-hover-2x, $delete-2x, $dropdown-arrow-2x, $icon-exit-2x, $icon-lock-2x, $icon-search-2x, $icon-user-2x, $logo-2x, $logo-dashboard-2x, $next-2x, $not-2x, $plus-2x, $prev-2x, );
+$retina-spritesheet: (334px, 322px, 'sprite-2x.png', $retina-spritesheet-sprites, );
+
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+$calendar-group-name: 'calendar';
+$calendar-group: ('calendar', $calendar, $calendar-2x, );
+$calendar-white-group-name: 'calendar_white';
+$calendar-white-group: ('calendar_white', $calendar-white, $calendar-white-2x, );
+$checkbox-off-group-name: 'checkbox_off';
+$checkbox-off-group: ('checkbox_off', $checkbox-off, $checkbox-off-2x, );
+$checkbox-on-group-name: 'checkbox_on';
+$checkbox-on-group: ('checkbox_on', $checkbox-on, $checkbox-on-2x, );
+$close-group-name: 'close';
+$close-group: ('close', $close, $close-2x, );
+$close-hover-group-name: 'close_hover';
+$close-hover-group: ('close_hover', $close-hover, $close-hover-2x, );
+$delete-group-name: 'delete';
+$delete-group: ('delete', $delete, $delete-2x, );
+$dropdown-arrow-group-name: 'dropdown_arrow';
+$dropdown-arrow-group: ('dropdown_arrow', $dropdown-arrow, $dropdown-arrow-2x, );
+$icon-exit-group-name: 'icon-exit';
+$icon-exit-group: ('icon-exit', $icon-exit, $icon-exit-2x, );
+$icon-lock-group-name: 'icon-lock';
+$icon-lock-group: ('icon-lock', $icon-lock, $icon-lock-2x, );
+$icon-search-group-name: 'icon-search';
+$icon-search-group: ('icon-search', $icon-search, $icon-search-2x, );
+$icon-user-group-name: 'icon-user';
+$icon-user-group: ('icon-user', $icon-user, $icon-user-2x, );
+$logo-group-name: 'logo';
+$logo-group: ('logo', $logo, $logo-2x, );
+$logo-dashboard-group-name: 'logo_dashboard';
+$logo-dashboard-group: ('logo_dashboard', $logo-dashboard, $logo-dashboard-2x, );
+$next-group-name: 'next';
+$next-group: ('next', $next, $next-2x, );
+$not-group-name: 'not';
+$not-group: ('not', $not, $not-2x, );
+$plus-group-name: 'plus';
+$plus-group: ('plus', $plus, $plus-2x, );
+$prev-group-name: 'prev';
+$prev-group: ('prev', $prev, $prev-2x, );
+$retina-groups: ($calendar-group, $calendar-white-group, $checkbox-off-group, $checkbox-on-group, $close-group, $close-hover-group, $delete-group, $dropdown-arrow-group, $icon-exit-group, $icon-lock-group, $icon-search-group, $icon-user-group, $logo-group, $logo-dashboard-group, $next-group, $not-group, $plus-group, $prev-group, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+$icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+
+.icon-home {
+  @include retina-sprite($icon-home-group);
+}
+*/
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+/*
+The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in SCSS
+
+@include retina-sprites($retina-groups);
+*/
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

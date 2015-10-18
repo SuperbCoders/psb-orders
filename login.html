@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Title</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="icon" href="favicon.ico"> -->
+	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	<!-- build:css -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- endbuild -->
+</head>
+
+<body>
+
+	<div id="login-page">
+		<div class="logo"></div>
+		<h1>Дистанционная система<br>открытия счета</h1>
+		<form action="dashboard.html" id="login-form" novalidate>
+			<div class="input-wrap">
+				<input type="text" name="login" minlength="2" placeholder="Введите ваш логин" required>
+			</div>
+			<div class="input-wrap has-icon">
+				<input type="password" name="password" minlength="2" placeholder="Введите пароль" required>
+				<a href="#" class="icon-wrap">?</a>
+			</div>
+			<div id="error-message"><!-- error message goes here --></div>
+			<input type="submit" value="Войти">
+		</form>
+		<div class="bottom">PSB-RB2B</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
+	<script src="js/login.js"></script>
+</body>
+
+</html>
