@@ -2086,6 +2086,42 @@ table.founders .col6 {
         .dialog.comment-history .chat .message.client .name, .dialog.comment-history .chat .message.client .date {
           text-align: right; }
 
+.user-input-wrap {
+  height: 75px;
+  position: relative;
+  border-top: 1px solid #d8d8d8; }
+  .user-input-wrap #user-comment {
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 25px;
+    width: 100%;
+    padding-right: 135px;
+    color: #B8C1CE; }
+  .user-input-wrap #user-comment::-webkit-input-placeholder {
+    color: #b8c1ce;
+    font-style: 14px; }
+  .user-input-wrap #user-comment::-moz-placeholder {
+    color: #b8c1ce;
+    font-style: 14px; }
+  .user-input-wrap #user-comment:-moz-placeholder {
+    color: #b8c1ce;
+    font-style: 14px; }
+  .user-input-wrap #user-comment:-ms-input-placeholder {
+    color: #b8c1ce;
+    font-style: 14px; }
+  .user-input-wrap #btn-add-comment {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #359BF7;
+    font-size: 18px;
+    height: 100%;
+    padding: 0 25px;
+    background: none;
+    border: none;
+    outline: none; }
+
 .no-claims {
   font-size: 40px;
   color: #1F1F1F;
