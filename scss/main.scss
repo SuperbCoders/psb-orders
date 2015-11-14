@@ -624,7 +624,7 @@ label.styled_ch {
 .cnt-claims {
     padding-top: 27px;
 }
-.table-wrap {
+.table-wrap  {
     border: 1px solid #dadada;
     border-radius: 3px;
     width: 980px;
@@ -650,7 +650,10 @@ label.styled_ch {
         }
     }
 }
-table.claims {
+.cnt-claims.acts .table-wrap {
+    width: 760px;
+}
+table.claims, table.acts {
     font-family: "MyriadProRegular";
     width: 100%;
 
@@ -674,6 +677,40 @@ table.claims {
     td {
         font-size: 14px;
         padding: 25px 0;
+    }
+}
+table.acts {
+    .download-link {
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 18px;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            @include sprite($icon_down);
+        }
+    }
+    .download-link:hover {
+        color: #316CF9;
+        cursor: pointer;
+        &:before {
+            @include sprite($icon_down_h);
+        }
+    }
+    #col1 {
+        width: 230px;
+    }
+    #col2 {
+        width: 215px;
+    }
+    #col3 {
+        width: 180px;
+    }
+    #col4 {
+        width: 75px;
     }
 }
 span.label {

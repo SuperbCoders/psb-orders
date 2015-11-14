@@ -72,7 +72,7 @@ jQuery(function() {
 
     // Подсветка строки таблицы (и активация чекбокса) при клике на ней
     var totalSelected = 0;
-    $('table.claims tr').click(function(event) {
+    $('table.target-claims tr').click(function(event) {
         if (!$(event.target).is('.styled_ch span')) {
             console.log(event.target);
             var row = $(this);

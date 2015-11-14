@@ -776,23 +776,23 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
 
 .calendar {
   background-image: url(sprite.png);
-  background-position: -146px -63px;
+  background-position: -146px -83px;
   width: 18px;
   height: 20px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .calendar {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .calendar_white {
   background-image: url(sprite.png);
-  background-position: -146px -83px;
+  background-position: -146px -63px;
   width: 18px;
   height: 20px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .calendar_white {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .checkbox_off {
   background-image: url(sprite.png);
@@ -802,7 +802,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .checkbox_off {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .checkbox_on {
   background-image: url(sprite.png);
@@ -812,27 +812,27 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .checkbox_on {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .close {
-  background-image: url(sprite.png);
-  background-position: -101px -103px;
-  width: 21px;
-  height: 21px; }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .close {
-      background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
-
-.close_hover {
   background-image: url(sprite.png);
   background-position: -122px -103px;
   width: 21px;
   height: 21px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .close {
+      background-image: url(sprite-2x.png);
+      background-size: 177px 159px; } }
+
+.close_hover {
+  background-image: url(sprite.png);
+  background-position: -146px 0px;
+  width: 21px;
+  height: 21px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .close_hover {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .delete {
   background-image: url(sprite.png);
@@ -842,17 +842,17 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .delete {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .dropdown_arrow {
   background-image: url(sprite.png);
-  background-position: -138px -80px;
+  background-position: -167px -36px;
   width: 8px;
   height: 5px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .dropdown_arrow {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .icon-exit {
   background-image: url(sprite.png);
@@ -862,7 +862,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-exit {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .icon-lock {
   background-image: url(sprite.png);
@@ -872,17 +872,17 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-lock {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .icon-search {
   background-image: url(sprite.png);
-  background-position: -146px 0px;
+  background-position: -101px -103px;
   width: 21px;
   height: 21px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-search {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .icon-user {
   background-image: url(sprite.png);
@@ -892,7 +892,27 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-user {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
+
+.icon_down {
+  background-image: url(sprite.png);
+  background-position: 0px -143px;
+  width: 16px;
+  height: 16px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .icon_down {
+      background-image: url(sprite-2x.png);
+      background-size: 177px 159px; } }
+
+.icon_down_h {
+  background-image: url(sprite.png);
+  background-position: -16px -143px;
+  width: 16px;
+  height: 16px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .icon_down_h {
+      background-image: url(sprite-2x.png);
+      background-size: 177px 159px; } }
 
 .logo {
   background-image: url(sprite.png);
@@ -902,7 +922,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .logo {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .logo_dashboard {
   background-image: url(sprite.png);
@@ -912,17 +932,17 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .logo_dashboard {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .next {
   background-image: url(sprite.png);
-  background-position: 0px -143px;
+  background-position: -167px 0px;
   width: 10px;
   height: 18px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .next {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .not {
   background-image: url(sprite.png);
@@ -932,7 +952,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .not {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .plus {
   background-image: url(sprite.png);
@@ -942,17 +962,17 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .plus {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 .prev {
   background-image: url(sprite.png);
-  background-position: -10px -143px;
+  background-position: -167px -18px;
   width: 10px;
   height: 18px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .prev {
       background-image: url(sprite-2x.png);
-      background-size: 167px 161px; } }
+      background-size: 177px 159px; } }
 
 * {
   box-sizing: border-box; }
@@ -1189,7 +1209,7 @@ body.dashboard {
     top: 16px;
     right: 15px;
     background-image: url(sprite.png);
-    background-position: -138px -80px;
+    background-position: -167px -36px;
     width: 8px;
     height: 5px; }
   .dropit .dropit-trigger {
@@ -1282,7 +1302,7 @@ input.error ~ .dropit > li, input.error.datepicker {
   .datepicker-wrap:after {
     content: '';
     background-image: url(sprite.png);
-    background-position: -146px -63px;
+    background-position: -146px -83px;
     width: 18px;
     height: 20px;
     position: absolute;
@@ -1343,7 +1363,7 @@ input.styled {
       top: 16px;
       right: 15px;
       background-image: url(sprite.png);
-      background-position: -138px -80px;
+      background-position: -167px -36px;
       width: 8px;
       height: 5px; }
     .toolbar .item.dropit .dropit-trigger {
@@ -1384,7 +1404,7 @@ input.styled {
     .toolbar .item.datepicker-wrap:after {
       content: '';
       background-image: url(sprite.png);
-      background-position: -146px -63px;
+      background-position: -146px -83px;
       width: 18px;
       height: 20px;
       position: absolute;
@@ -1505,22 +1525,61 @@ label.styled_ch {
     .table-wrap.body table tr:last-child {
       border-bottom: none; }
 
-table.claims {
+.cnt-claims.acts .table-wrap {
+  width: 760px; }
+
+table.claims, table.acts {
   font-family: "MyriadProRegular";
   width: 100%; }
-  table.claims tr {
+  table.claims tr, table.acts tr {
     color: #8d9fb1; }
-    table.claims tr.selected {
+    table.claims tr.selected, table.acts tr.selected {
       color: #316cf9; }
-  table.claims th {
+  table.claims th, table.acts th {
     color: #c7d0d5;
     font-size: 13px;
     text-transform: uppercase;
     text-align: left;
     font-weight: normal; }
-  table.claims td {
+  table.claims td, table.acts td {
     font-size: 14px;
     padding: 25px 0; }
+
+table.acts .download-link {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 18px;
+  position: relative; }
+  table.acts .download-link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(sprite.png);
+    background-position: 0px -143px;
+    width: 16px;
+    height: 16px; }
+
+table.acts .download-link:hover {
+  color: #316CF9;
+  cursor: pointer; }
+  table.acts .download-link:hover:before {
+    background-image: url(sprite.png);
+    background-position: -16px -143px;
+    width: 16px;
+    height: 16px; }
+
+table.acts #col1 {
+  width: 230px; }
+
+table.acts #col2 {
+  width: 215px; }
+
+table.acts #col3 {
+  width: 180px; }
+
+table.acts #col4 {
+  width: 75px; }
 
 span.label {
   color: white;
@@ -1612,7 +1671,7 @@ col#col8 {
   border-radius: 50%; }
   .calendar:before {
     background-image: url(sprite.png);
-    background-position: -146px -83px;
+    background-position: -146px -63px;
     width: 18px;
     height: 20px;
     content: '';
@@ -1717,12 +1776,12 @@ a.link {
     color: transparent;
     cursor: pointer;
     background-image: url(sprite.png);
-    background-position: -101px -103px;
+    background-position: -122px -103px;
     width: 21px;
     height: 21px; }
     .claimForm .arcticmodal-close:hover, .dialog .arcticmodal-close:hover {
       background-image: url(sprite.png);
-      background-position: -122px -103px;
+      background-position: -146px 0px;
       width: 21px;
       height: 21px; }
   .claimForm .wrap, .dialog .wrap {
